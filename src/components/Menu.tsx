@@ -1,3 +1,4 @@
+
 const menuItems = [
     {
       title: "MENU",
@@ -112,3 +113,10 @@ const menuItems = [
       ],
     },
   ];
+
+const Menu = () => {
+
+    return (<></>);
+}
+
+export default Menu;
