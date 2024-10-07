@@ -125,7 +125,7 @@ const Menu = () => {
           {e.items.filter(e => e.visible).map((i) => (
             <Link className="flex items-center justify-center lg:justify-start text-gray-500" href={i.href} key={i.label}>
               <Image src={i.icon} alt={i.label} width="20" height="20" />
-              <span className="hidden lg:block">{i.label}</span>
+              <span className="hidden lg:block pl-2">{i.label}</span>
             </Link>
           ))}
         </div>
