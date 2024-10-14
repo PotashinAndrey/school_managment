@@ -9,7 +9,7 @@ interface UserCard {
 export const UserCard = ({
   type,
   date = "2024/25",
-  counter = Math.floor(Math.random() * 5000),
+  counter = 3741,
 }: UserCard) => {
   return (
     <div className="rounded-2xl odd:bg-purpuleBase even:bg-yellowBase p-4 flex-1 min-w-[130px]  ">
